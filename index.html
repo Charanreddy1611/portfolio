@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="https://schema.org/Person">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charan Reddy Nandyala - Data Scientist & ML Engineer | Portfolio</title>
+    <meta name="description" content="Portfolio of Charan Reddy Nandyala - Data Science Fellow at UC Riverside. ML Engineer specializing in AI, Computer Vision, Big Data, and Machine Learning. View projects, publications, and experience.">
+    <meta name="keywords" content="Charan Reddy Nandyala, Data Scientist, Machine Learning Engineer, AI Engineer, Computer Vision, Python, TensorFlow, PyTorch, Data Science, UC Riverside, ML Portfolio, Deep Learning, Big Data, GCP, AWS">
+    <meta name="author" content="Charan Reddy Nandyala">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <link rel="canonical" href="https://charanreddy1611.github.io/portfolio/">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Charan Reddy Nandyala - Data Scientist & ML Engineer">
+    <meta property="og:description" content="Portfolio of Charan Reddy Nandyala - Data Science Fellow at UC Riverside. ML Engineer specializing in AI, Computer Vision, and Big Data.">
+    <meta property="og:url" content="https://charanreddy1611.github.io/portfolio/">
+    <meta property="og:site_name" content="Charan Reddy Nandyala Portfolio">
+    <meta property="og:locale" content="en_US">
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Charan Reddy Nandyala - Data Scientist & ML Engineer">
+    <meta name="twitter:description" content="Portfolio of Charan Reddy Nandyala - Data Science Fellow at UC Riverside">
+    <meta name="twitter:creator" content="@__cr16">
+    
+    <!-- Structured Data (JSON-LD) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Charan Reddy Nandyala",
+      "jobTitle": "Data Science Fellow",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "University of California, Riverside"
+      },
+      "alumniOf": {
+        "@type": "EducationalOrganization",
+        "name": "University of California, Riverside"
+      },
+      "email": "charanreddy671@gmail.com",
+      "telephone": "+1-805-217-9968",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Los Angeles",
+        "addressRegion": "CA",
+        "addressCountry": "US"
+      },
+      "url": "https://github.com/Charanreddy1611",
+      "sameAs": [
+        "https://www.linkedin.com/in/charan-reddy-nandyala-845681218/",
+        "https://github.com/Charanreddy1611"
+      ],
+      "knowsAbout": ["Machine Learning", "Data Science", "Artificial Intelligence", "Computer Vision", "Deep Learning", "Python", "TensorFlow", "PyTorch"]
+    }
+    </script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Three.js for 3D animations -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <!-- EmailJS is optional - uncomment if you want to use it instead of mailto -->
+    <!-- <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script> -->
+</head>
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">Skip to main content</a>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">Charan Reddy</div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#education" class="nav-link">Education</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <label class="theme-toggle" aria-label="Toggle dark mode">
+                    <span class="theme-toggle-label">Switch to Darkmode</span>
+                    <input type="checkbox" id="dark-mode-toggle">
+                    <span class="toggle-slider"></span>
+                </label>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <main id="main-content">
+    <section id="home" class="hero" aria-label="Hero section">
+        <canvas id="threejs-canvas"></canvas>
+        <div class="hero-parallax-blob-1"></div>
+        <div class="hero-parallax-blob-2"></div>
+        <div class="hero-parallax-blob-3"></div>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="greeting">Hi, I'm</span>
+                    <span class="name">Charan Reddy Nandyala</span>
+                </h1>
+                <p class="hero-subtitle">Data Scientist & Machine Learning Engineer</p>
+                <p class="hero-description">
+                    Transforming data into intelligent solutions through AI, machine learning, and innovative engineering.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                    <a href="Charan.pdf" download="Charan_Reddy_Resume.pdf" class="btn btn-resume">📄 Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image-wrapper">
+                    <img src="IMG_20230315_233529.jpg" alt="Charan Reddy Nandyala" class="profile-photo">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        I'm a Data Science Fellow at UC Riverside and a passionate Machine Learning Engineer with expertise 
+                        in building AI-driven solutions. Graduated with a Master of Science in Computational Data Science 
+                        with a 3.90 GPA, I specialize in developing intelligent systems that solve real-world problems.
+                    </p>
+                    <p>
+                        My work spans from building conversational AI agents with Vertex AI and RAG systems to developing 
+                        computer vision models for safety applications. I have experience in prototyping ML products, market 
+                        segmentation, and working with large-scale data systems on GCP and AWS.
+                    </p>
+                    <p>
+                        I'm also a published researcher, having presented work on hyperspectral image processing at international 
+                        conferences. When I'm not coding, I enjoy mentoring others and contributing to the data science community.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <div class="stat-number">3.90</div>
+                            <div class="stat-label">GPA (MS)</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2+</div>
+                            <div class="stat-label">Years Experience</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">2</div>
+                            <div class="stat-label">Publications</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="experience-timeline">
+                <div class="experience-item">
+                    <div class="experience-date">June 2025 - August 2025</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Data Science Fellow</h3>
+                        <h4 class="experience-company">University of California, Riverside</h4>
+                        <ul class="experience-description">
+                            <li>Engineered a conversational course-section recommender using Google ADK + Agent2 with Vertex AI (Gemini), enabling reasoning over student preferences (days/times) to return open sections.</li>
+                            <li>Integrated college-provided course data stored in BigQuery with a custom RAG engine, ensuring real-time updates by syncing every change from BigQuery into the retrieval pipeline.</li>
+                            <li>Delivered a functional prototype chatbot, showcasing rapid development of agentic AI workflows and API integration.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">December 2023 - February 2024</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Machine Learning Intern</h3>
+                        <h4 class="experience-company">Feynn Labs</h4>
+                        <ul class="experience-description">
+                            <li>Prototyped AI-driven products and services by applying machine learning models to validate functionality.</li>
+                            <li>Executed market segmentation using supervised learning methods (Decision Trees, SVMs, Regression), uncovering customer clusters and behavioral patterns.</li>
+                            <li>Structured business and financial models for AI solutions, aligning product viability with market insights.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="experience-item">
+                    <div class="experience-date">2022 - 2023</div>
+                    <div class="experience-content">
+                        <h3 class="experience-title">Mentor</h3>
+                        <h4 class="experience-company">Intel IoT Club, Amrita Vishwa Vidyapeetham</h4>
+                        <ul class="experience-description">
+                            <li>Mentored students in IoT technologies and embedded systems development.</li>
+                            <li>Guided projects and provided technical support to club members.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="container">
+            <h2 class="section-title">Education</h2>
+            <div class="education-grid">
+                <div class="education-item">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-degree">Master of Science in Computational Data Science</h3>
+                    <h4 class="education-school">University of California, Riverside</h4>
+                    <p class="education-location">Riverside, CA</p>
+                    <p class="education-period">September 2024 - Present</p>
+                    <p class="education-gpa">GPA: 3.90/4.0</p>
+                </div>
+                <div class="education-item">
+                    <div class="education-icon">🎓</div>
+                    <h3 class="education-degree">Bachelor of Technology in Computer and Communication Engineering</h3>
+                    <h4 class="education-school">Amrita Vishwa Vidyapeetham</h4>
+                    <p class="education-location">Coimbatore, India</p>
+                    <p class="education-period">September 2020 - June 2024</p>
+                    <p class="education-gpa">GPA: 3.15/4.0</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section id="publications" class="publications">
+        <div class="container">
+            <h2 class="section-title">Publications</h2>
+            <div class="publications-list">
+                <div class="publication-item">
+                    <h3 class="publication-title">DynaRank Predictor: Unravelling the Dynamics of Variations, Randomness, and Intricacy Metrics in University Rankings</h3>
+                    <p class="publication-authors">Co-authored with Nidhi Agarwal, Abhishek Raj Permani, Sudhir Kumar Tiwari, Sayan Kundu, Dhanush Chalicheemala</p>
+                    <p class="publication-venue">Research Paper</p>
+                    <div class="publication-tags">
+                        <span class="tag">Network Dynamics</span>
+                        <span class="tag">Machine Learning</span>
+                        <span class="tag">University Rankings</span>
+                        <span class="tag">Data Science</span>
+                    </div>
+                </div>
+                <div class="publication-item">
+                    <h3 class="publication-title">Hyperspectral Band Selection using Modified Jaya Optimization Algorithm</h3>
+                    <p class="publication-venue">2024 6th International Conference on Energy, Power and Environment (ICEPE)</p>
+                    <p class="publication-location">Shillong, India</p>
+                    <div class="publication-tags">
+                        <span class="tag">Research</span>
+                        <span class="tag">Optimization</span>
+                        <span class="tag">Hyperspectral Imaging</span>
+                    </div>
+                    <div class="publication-links" style="margin-top: 1rem;">
+                        <a href="https://ieeexplore.ieee.org/document/10668880" target="_blank" class="project-link">View Paper on IEEE Xplore</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Interactive Map</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Chat with Map: Natural Language GIS Interface</h3>
+                        <p class="project-description">
+                            An intelligent Streamlit application that enables natural language queries about U.S. counties with interactive map visualization. 
+                            Uses LangGraph/LangChain agents to convert questions to SQL, queries PostGIS databases, and displays results on dynamic PyDeck maps. 
+                            Supports both Ollama and OpenAI for flexible LLM integration.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">PostGIS</span>
+                            <span class="tag">LangChain</span>
+                            <span class="tag">NLP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/Chat-with-Map" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">AI Storytelling</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Bedtime Story Generator</h3>
+                        <p class="project-description">
+                            A delightful AI-powered storytelling app that generates personalized bedtime stories for children. Combines GPT-4o for story 
+                            generation, DALL·E for custom illustrations, and OpenAI TTS for voice narration. Features PDF export, Streamlit interface, 
+                            and cloud deployment, creating an engaging interactive experience for young readers.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">OpenAI GPT-4</span>
+                            <span class="tag">DALL·E</span>
+                            <span class="tag">Streamlit</span>
+                            <span class="tag">AI</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/Bedtime-Story-Generator" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">AI Agent</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Conversational Course Recommender</h3>
+                        <p class="project-description">
+                            An intelligent multi-agent system that helps UCR students plan their schedules. Built with Google's ADK and Gemini AI, 
+                            it uses major-specific sub-agents to provide personalized course recommendations by reasoning over student preferences, 
+                            prerequisites, and real-time course availability from BigQuery.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Vertex AI</span>
+                            <span class="tag">Gemini</span>
+                            <span class="tag">BigQuery</span>
+                            <span class="tag">RAG</span>
+                            <span class="tag">GCP</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/UCR-Schedule-Recommender" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Computer Vision</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Driver Monitoring System</h3>
+                        <p class="project-description">
+                            A real-time AI-powered safety system that detects driver fatigue and distraction using computer vision. Combines face pose 
+                            estimation, eye tracking, and yawn detection to classify driver states, helping prevent accidents through proactive alerts 
+                            when attention levels drop.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">TensorFlow</span>
+                            <span class="tag">Keras</span>
+                            <span class="tag">OpenCV</span>
+                            <span class="tag">Computer Vision</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/Driver-Monitoring-System" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">IoT</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Automatic Solar Tracker</h3>
+                        <p class="project-description">
+                            An Arduino-based intelligent solar panel tracking system that automatically adjusts panel orientation to maximize energy 
+                            capture throughout the day. Uses light sensors and servo motors to follow the sun's path, increasing solar efficiency 
+                            by dynamically optimizing panel angles.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Arduino</span>
+                            <span class="tag">C++</span>
+                            <span class="tag">IoT</span>
+                            <span class="tag">Embedded Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/Automatic-solar-tracker" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Reinforcement Learning</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Multi-Agent Predator-Prey RL</h3>
+                        <p class="project-description">
+                            A sophisticated reinforcement learning environment simulating predator-prey dynamics with multiple intelligent agents. 
+                            Implements self-play mechanisms where agents learn and adapt strategies through competitive interactions, exploring 
+                            complex emergent behaviors in multi-agent systems.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Reinforcement Learning</span>
+                            <span class="tag">Multi-Agent Systems</span>
+                            <span class="tag">Self-Play</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/multiagent-predator-prey-selfplay-in-RL" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Fire Safety AI</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Fire Detection System</h3>
+                        <p class="project-description">
+                            An AI-powered fire detection system using computer vision and machine learning to identify fire hazards in real-time. 
+                            Processes video streams to detect flames and smoke patterns, providing early warning alerts to prevent disasters and 
+                            protect lives and property.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Computer Vision</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Safety Systems</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Charanreddy1611/Fire-Detection-System" target="_blank" class="project-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">ML Research</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Hyperspectral Image Compression</h3>
+                        <p class="project-description">
+                            Advanced deep learning approach for hyperspectral image compression using Jaya optimization algorithm and Residual Dense 
+                            Networks. Achieves significant dimensionality reduction while preserving critical spectral-spatial information through 
+                            attention mechanisms, enabling efficient storage and transmission of high-dimensional imaging data.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Deep Learning</span>
+                            <span class="tag">Optimization</span>
+                            <span class="tag">Image Processing</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://ieeexplore.ieee.org/document/10668880" target="_blank" class="project-link">Paper</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Network Analysis</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">DynaRank Predictor: University Rankings Prediction</h3>
+                        <p class="project-description">
+                            A novel model for predicting university rankings by analyzing network dynamics, incorporating fluctuations and noise, 
+                            and integrating complexity metrics. Leverages network theory to capture evolving relationships between universities, 
+                            providing more accurate and robust ranking predictions compared to traditional static approaches.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Network Analysis</span>
+                            <span class="tag">Machine Learning</span>
+                            <span class="tag">Data Science</span>
+                            <span class="tag">Research</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="project-link">Paper</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Python</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">C/C++</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Java</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">ML & Deep Learning</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">PyTorch</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">TensorFlow/Keras</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 92%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">OpenCV</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Pandas/NumPy</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Cloud & Databases</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Google Cloud Platform</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 90%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">AWS</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">BigQuery</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MongoDB</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 80%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">MySQL</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 82%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Big Data</h3>
+                    <div class="skill-items">
+                        <div class="skill-item">
+                            <span class="skill-name">Hadoop</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Hive</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 70%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Vertex AI</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 85%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <span class="skill-name">Jupyter Notebook</span>
+                            <div class="skill-bar">
+                                <div class="skill-progress" style="width: 95%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="contact-subtitle">
+                I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
+            </p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div>
+                            <h4>Email</h4>
+                            <a href="mailto:charanreddy671@gmail.com">charanreddy671@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <a href="tel:+18052179968">(805) 217-9968</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">💼</div>
+                        <div>
+                            <h4>LinkedIn</h4>
+                            <a href="https://www.linkedin.com/in/charan-reddy-nandyala-845681218/" target="_blank">linkedin.com/in/charan-reddy-nandyala-845681218</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">🐙</div>
+                        <div>
+                            <h4>GitHub</h4>
+                            <a href="https://github.com/Charanreddy1611" target="_blank">github.com/Charanreddy1611</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>Los Angeles, CA</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📄</div>
+                        <div>
+                            <h4>Resume</h4>
+                            <a href="Charan.pdf" download="Charan_Reddy_Resume.pdf">Download Resume (PDF)</a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <input type="text" name="from_name" id="from_name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" name="from_email" id="from_email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea name="message" id="message" placeholder="Your Message" rows="5" required></textarea>
+                    </div>
+                    <div id="form-message" class="form-message"></div>
+                    <button type="submit" class="btn btn-primary" id="submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Charan Reddy Nandyala. All rights reserved.</p>
+            <div class="social-links">
+                <a href="https://github.com/Charanreddy1611" target="_blank" aria-label="GitHub">🐙</a>
+                <a href="https://www.linkedin.com/in/charan-reddy-nandyala-845681218/" target="_blank" aria-label="LinkedIn">💼</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
