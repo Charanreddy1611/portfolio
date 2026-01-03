@@ -144,18 +144,10 @@ portfolio/
 2. Run `vercel` in your project directory
 3. Follow the prompts
 
-## Tips
-
-- Replace placeholder content with your actual information
-- Add real project screenshots instead of placeholders
-- Update the form submission handler in `script.js` to connect to a backend service
-- Consider adding a favicon
-- Optimize images before adding them
-- Test on multiple devices and browsers
 
 ## License
 
-Feel free to use this template for your own portfolio! Customize it however you like.
+Feel free to use this template for your own portfolio! Customise6 it however you like.
 
 ## Credits
 
